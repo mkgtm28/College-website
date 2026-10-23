@@ -1,0 +1,95 @@
+.admission-page > p:not(.eyebrow) {
+  color: #66736f;
+}
+
+.admission-form {
+  max-width: 800px;
+  margin-top: 28px;
+  padding: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border: 1px solid #e7e9e2;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.admission-form h2 {
+  grid-column: 1 / -1;
+  margin: 12px 0 0;
+  color: #174d43;
+  font-size: 20px;
+}
+
+.admission-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #18332f;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.admission-form input,
+.admission-form select,
+.admission-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5cf;
+  border-radius: 6px;
+  background: white;
+  font: inherit;
+}
+
+.admission-form input:focus,
+.admission-form select:focus,
+.admission-form textarea:focus {
+  outline: 2px solid #7eaa91;
+  border-color: transparent;
+}
+
+.admission-form .admission-full-width {
+  grid-column: 1 / -1;
+}
+
+.admission-form .consent {
+  flex-direction: row;
+  align-items: center;
+  font-weight: normal;
+}
+
+.admission-form .consent input {
+  width: auto;
+}
+
+.admission-form button {
+  width: fit-content;
+  border: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .admission-form {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .admission-form h2,
+  .admission-form .admission-full-width {
+    grid-column: auto;
+  }
+}
+.admission-status,
+.enquiry-status {
+  grid-column: 1 / -1;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.admission-status.success,
+.enquiry-status.success { color: #176b42; }
+.admission-status.warning,
+.enquiry-status.warning { color: #8a5a00; }
+.admission-status.error,
+.enquiry-status.error { color: #a32c2c; }

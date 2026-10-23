@@ -1,0 +1,67 @@
+.notice-ticker {
+  min-height: 54px;
+  padding: 10px 7%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #174d43;
+  color: #fff;
+}
+
+.notice-ticker-label {
+  flex: 0 0 auto;
+  color: #f4c7a7;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.notice-ticker-link {
+  min-width: 0;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  animation: notice-appear 350ms ease both;
+}
+
+.notice-ticker-link:hover,
+.notice-ticker-all:hover {
+  text-decoration: underline;
+}
+
+.notice-ticker-all {
+  margin-left: auto;
+  flex: 0 0 auto;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@keyframes notice-appear {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 560px) {
+  .notice-ticker {
+    gap: 10px;
+    padding: 10px 5%;
+  }
+
+  .notice-ticker-label {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .notice-ticker-all {
+    font-size: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .notice-ticker-link {
+    animation: none;
+  }
+}

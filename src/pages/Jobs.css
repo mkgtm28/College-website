@@ -1,0 +1,103 @@
+.jobs-page > p :not(.eyebrow) {
+  color: #66736f;
+  font-size: 16px;
+}
+
+.job-application {
+  max-width: 800px;
+  margin-top: 28px;
+  padding: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border: 1px solid #e7e9e2;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.job-application label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #18332f;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.job-application input,
+.job-application select,
+.job-application textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5cf;
+  border-radius: 6px;
+  background: white;
+  font: inherit;
+}
+
+.job-application input:focus,
+.job-application textarea:focus {
+  outline: 2px solid #7eaa91;
+  border-color: transparent;
+}
+
+.job-application .job-full-width {
+  grid-column: 1 / -1;
+}
+
+.job-application .job-consent {
+  flex-direction: row;
+  align-items: center;
+  font-weight: normal;
+}
+
+.job-application .job-consent input {
+  width: auto;
+}
+
+.job-application button {
+  width: fit-content;
+  border: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.job-application button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.job-status {
+  grid-column: 1 / -1;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.job-status.success {
+  color: #176b42;
+}
+
+.job-status.error {
+  color: #a32c2c;
+}
+
+@media (max-width: 600px) {
+  .job-application {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .job-application .job-full-width {
+    grid-column: auto;
+  }
+}
+
+.job-application small {
+  color: #66736f;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.job-status.warning {
+  color: #8a5a00;
+}
