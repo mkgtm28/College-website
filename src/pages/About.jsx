@@ -5,7 +5,7 @@ function About() {
       <h1>Delhi Institute of Engineering and Technology, Meerut</h1>
       <p>
         DIET Meerut is a college for students pursuing education in
-        engineering and technology. This page can later include the college’s
+        engineering and technology. This page can later include the college library’s
         history, facilities, and other verified information.
       </p>
     </main>
