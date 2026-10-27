@@ -8,7 +8,7 @@ function AdmissionForm() {
 
   const branches = {
     "B.Tech": ["Computer Science", "Civil", "Mechanical", "Electrical Engineering", "Electronics and Communication Engineering", "Chemical Engineering", "Infomation Technology"],
-    BCA: ["Data Science & Analytics", "Cloud Computing", "Cyber Security & Ethical", "Artificial Intelligence & Machine Learning"],
+    BCA: ["Data Science & Analytics", "Cloud Computing", "Cyber Security & Ethical", "Artificial Intelligence & Machine Learning","Mobile Application","Software Engineering","Business Analytics","Digital Marketing & E-Commerce"],
     BBA: ["Finance", "Marketing & Digital Marketing","Human Resource Management","Business Analytics","International Business","Enterpreneurship"],
     Polytechnic: ["Civil", "Mechanical", "Computer Science","Electrical Engineering","Electronics & Communication","Automobile Engineering","Chemical Engineering"],
     ITI: ["Mechanical & Manufacturing","Electrical & Electronics","Automobile & Engine Maintenance","Civil & Infrastructure","Service-Sector & Creative"],
