@@ -82,7 +82,13 @@ function Jobs() {
             <option value="Lab Assistant">Lab Assistant</option>
             <option value="Administrative Staff">Administrative Staff</option>
             <option value="Technical Staff">Technical Staff</option>
-            <option value="Other">Other</option>
+            <option value="Clerk">Clerk / office Assistant</option>
+            <option value="IT Support Staff">IT Support Staff</option>
+            <option value="Network Administrator">Network Administrator</option>
+            <option value="Lab Technician">Lab Technician</option>
+            <option value="Placement Officer">Placement Officer</option>
+            <option value="Admission Officer">Admission Officer</option>
+            <option value="Security Staff">Security Staff</option>
           </select>
         </label>
 

@@ -63,7 +63,7 @@ function Enquiry() {
             <option value="BCA">BCA</option>
             <option value="BBA">BBA</option>
             <option value="Polytechnic">Polytechnic</option>
-            <option value="IT">IT</option>
+            <option value="ITI">ITI</option>
           </select>
         </label>
 
