@@ -7,11 +7,11 @@ function AdmissionForm() {
   const [branch, setBranch] = useState("");
 
   const branches = {
-    "B.Tech": ["Computer Science", "Civil", "Mechanical"],
-    BCA: ["Computer Applications"],
-    BBA: ["Business Administration"],
-    Polytechnic: ["Civil", "Mechanical", "Computer Science"],
-    IT: ["Information Technology"],
+    "B.Tech": ["Computer Science", "Civil", "Mechanical", "Electrical Engineering", "Electronics and Communication Engineering", "Chemical Engineering", "Infomation Technology"],
+    BCA: ["Data Science & Analytics", "Cloud Computing", "Cyber Security & Ethical", "Artificial Intelligence & Machine Learning"],
+    BBA: ["Finance", "Marketing & Digital Marketing","Human Resource Management","Business Analytics","International Business","Enterpreneurship"],
+    Polytechnic: ["Civil", "Mechanical", "Computer Science","Electrical Engineering","Electronics & Communication","Automobile Engineering","Chemical Engineering"],
+    ITI: ["Mechanical & Manufacturing","Electrical & Electronics","Automobile & Engine Maintenance","Civil & Infrastructure","Service-Sector & Creative"],
   };
 
   return (
@@ -88,7 +88,7 @@ function AdmissionForm() {
             <option value="BCA">BCA</option>
             <option value="BBA">BBA</option>
             <option value="Polytechnic">Polytechnic</option>
-            <option value="IT">IT</option>
+            <option value="ITI">ITI</option>
           </select>
         </label>
 
