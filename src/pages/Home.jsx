@@ -12,7 +12,7 @@ function Home() {
 
     const timer = window.setInterval(() => {
       setActiveNotice((current) => (current + 1) % notices.length);
-    }, 5000);
+    }, 3000);
 
     return () => window.clearInterval(timer);
   }, []);
