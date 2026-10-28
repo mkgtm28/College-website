@@ -16,7 +16,7 @@ function Header() {
         <Link to="/about">About</Link>
         
         <Link to="/enquiry">Enquiry</Link>
-        <Link to="/jobs">DIET Vacancy</Link>
+        <Link to="/jobs">Jobs At DIET</Link>
         <Link to="/updates">Alerts & Updates</Link>
         <Link className="nav-button" to="/admissions">
           Admissions
